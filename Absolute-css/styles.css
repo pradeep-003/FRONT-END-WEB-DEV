@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#car1 {
+  position: absolute;
+  height: 120px;
+  width: 100px;
+  background-color: red;
+}
+
+#car2 {
+  position: absolute;
+  top: 10%;
+  height: 90px;
+  width: 110px;
+  background-color: green;
+}
+
+#car3 {
+  position: absolute;
+  height: 130px;
+  width: 110px;
+  background-color: blue;
+}
