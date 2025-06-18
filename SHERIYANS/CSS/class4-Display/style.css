@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  /* display: inline; */
+  /* width height no effect */
+  display: inline-block;
+  /* width height effect */
+  width: 1200px;
+  height: 1200px;
+
+  background-color: red;
+}
+
+a {
+  display: block;
+}
+
+/* position: absolute; */
+
+#car1 {
+  width: 100px;
+  height: 140px;
+  background-color: blue;
+  position: absolute;
+}
+
+#car2 {
+  width: 80px;
+  height: 120px;
+  background-color: green;
+  position: absolute;
+  /* top: 20px; */
+}
+
+#car3 {
+  width: 105px;
+  height: 90px;
+  background-color: yellow;
+  position: absolute;
+}
+
+/* positon: relative; */
+
+#box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+#cube {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  left: 20%;
+  top: 30%;
+}
+
+/* positon: fixed; */
+/* when you scroll the website, the element will stay in the same position */
+
+/* background */
+#background-box {
+  height: 300px;
+  width: 300px;
+  background: url("https://images.unsplash.com/photo-1743736750720-5d927199fc15?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* background: red; */
+  background: linear-gradient(to right, red, blue);
+  background: linear-gradient(to right bottom, green, yellow);
+  /* by default top right */
+
+  /* background can set url, color, gradient, image, etc. */
+
+  background-size: cover;
+  /* background-size: contain no-repeat; */
+
+  /* background-size: contain;
+  resizes the background image to fit the container even if it's repeat */
+  background-position: center;
+}
